@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tandem-assignment/static/css/main.02040f9d.css",
+    "main.js": "/tandem-assignment/static/js/main.db6ff4c4.js",
+    "index.html": "/tandem-assignment/index.html",
+    "main.02040f9d.css.map": "/tandem-assignment/static/css/main.02040f9d.css.map",
+    "main.db6ff4c4.js.map": "/tandem-assignment/static/js/main.db6ff4c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02040f9d.css",
+    "static/js/main.db6ff4c4.js"
+  ]
+}
