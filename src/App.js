@@ -12,7 +12,7 @@ const App = () => {
   useEffect(() => {
     const fetchGPSData = async () => {
       try {
-        const response = await axios.get('/data.csv');
+        const response = await axios.get('https://raw.githubusercontent.com/saurabhmsvm/tandem-assignment/main/public/data.csv');
         const csvData = response.data;
         Papa.parse(csvData, {
           header: true,
