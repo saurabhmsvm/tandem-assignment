@@ -7,7 +7,7 @@ import { processGPSData } from './component/processGPSData';
 const App = () => {
   const [gpsData, setGpsData] = useState([]);
   const [stoppages, setStoppages] = useState([]);
-  const stoppageThreshold = 5;      // threshold in minutes
+  const stoppageThreshold = 1;      // threshold in minutes
 
   useEffect(() => {
     const fetchGPSData = async () => {
